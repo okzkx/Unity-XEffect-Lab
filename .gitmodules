@@ -1,0 +1,3 @@
+[submodule "Packages/com.unity.render-pipelines.universal.rendering"]
+	path = Packages/com.unity.render-pipelines.universal.rendering
+	url = https://github.com/18668612396/com.unity.render-pipelines.universal.rendering.git
