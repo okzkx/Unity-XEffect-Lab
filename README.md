@@ -5,6 +5,8 @@ xEffect 特效示例仓库
 
 > git clone --recurse-submodules https://github.com/okzkx/Unity-XEffect-Lab.git
 
+注意 clone 同时要更新 submodule
+
 ## 提交规范
 
 建议命令 AI 中文提交
