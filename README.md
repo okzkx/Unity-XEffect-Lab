@@ -10,3 +10,7 @@ xEffect 特效示例仓库
 ## 提交规范
 
 建议命令 AI 中文提交
+
+## 版本
+
+[Unity 6000.1.0f1](https://www.nounitycn.top/download?v=unityhub://6000.1.0f1/9ea152932a88)
