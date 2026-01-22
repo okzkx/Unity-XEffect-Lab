@@ -1,0 +1,356 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TestAllInOneNew
+  m_Shader: {fileID: 4800000, guid: 6b6ed05069da4d44a89f6dcab5fff659, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _ENABLE_DEPTHBLEND_ON
+  - _ENABLE_DISTORTION_ON
+  - _ENABLE_FRESNEL_ON
+  - _ENABLE_VERTEXANIM_ON
+  m_InvalidKeywords:
+  - _DISSOLUTIONBLENDALPHA_ON
+  - _DISSOLVEBLENDALPHA_ON
+  - _ENABLEFRESNELALPHA_ON
+  - _ENABLEVERTEXCOLORBLEND_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  - UniversalScreenDistortion
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolutionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondDissolutionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThirdMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexAnimTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddPrecomputedVelocity: 0
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _ApplySecondAlpha: 0
+    - _Blend: 0
+    - _BlendMode: 0
+    - _BlendModePreserveSpecular: 1
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 2
+    - _CullMode: 2
+    - _Cutoff: 0.5
+    - _DepthBlendMode: 0
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DissolutionBlendAlpha: 1
+    - _DissolutionChannel: 0
+    - _DissolutionCustomDataChannel: 0
+    - _DissolutionDirection: 0
+    - _DissolutionSoftness: 0.1
+    - _DissolutionSource: 0
+    - _DissolutionThreshold: 1
+    - _DissolveAnimation: 0
+    - _DissolveAnimationData01: 0
+    - _DissolveAnimationData02: 0
+    - _DissolveBlendAlpha: 1
+    - _DissolveChannel: 0
+    - _DissolveCustomDataChannel: 0
+    - _DissolveDirection: 0
+    - _DissolveDistortionIntensity: 0
+    - _DissolveSoftness: 0.1
+    - _DissolveSource: 0
+    - _DissolveThreshold: 1
+    - _DistortionAnimation: 0
+    - _DistortionAnimationData01: 0
+    - _DistortionAnimationData02: 0
+    - _DistortionChannel: 3
+    - _DistortionMode: 0
+    - _DstBlend: 10
+    - _DstBlendA: 10
+    - _DstBlendAlpha: 0
+    - _EffectBrightness: 1
+    - _EffectBrightnessCustomDataChannel: 0
+    - _EffectBrightnessSource: 0
+    - _EffectTransparence: 1
+    - _EnableAlphaTest: 0
+    - _EnableDepthBlend: 1
+    - _EnableDissolution: 0
+    - _EnableDissolve: 0
+    - _EnableDistortion: 1
+    - _EnableFlow: 0
+    - _EnableFlowDebuger: 0
+    - _EnableFresnel: 1
+    - _EnableFresnelAlpha: 1
+    - _EnableFresnelDebuger: 0
+    - _EnableMainTexColorAddition: 0
+    - _EnableMask: 0
+    - _EnableMaskDebuger: 0
+    - _EnableMultiMainAlpha: 0
+    - _EnableNormalMap: 0
+    - _EnableRamp: 0
+    - _EnableRampDebuger: 0
+    - _EnableScreenDistortion: 0
+    - _EnableScreenDistortionNormal: 0
+    - _EnableScreenParticle: 0
+    - _EnableSecond: 0
+    - _EnableSecondDissolution: 0
+    - _EnableSecondGradient: 0
+    - _EnableThird: 0
+    - _EnableVertexAnim: 1
+    - _EnableVertexColorBlend: 1
+    - _EnvironmentReflections: 1
+    - _FlowAnimationCustomDataChannel01: 0
+    - _FlowAnimationCustomDataChannel02: 0
+    - _FlowAnimationSource: 0
+    - _FlowTexChannel: 3
+    - _FresnelAlphaIntensity: 1
+    - _FresnelAlphaMode: 0
+    - _FresnelAlphaPower: 1
+    - _FresnelAlphaSoftnessMax: 1
+    - _FresnelAlphaSoftnessMin: 0
+    - _FresnelColorIntensity: 1
+    - _FresnelColorPower: 1
+    - _FresnelColorSoftnessMax: 1
+    - _FresnelColorSoftnessMin: 0
+    - _FresnelPower: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _IntersectionSoftness: 0.1
+    - _InvertMask: 0
+    - _MainAnimation: 0
+    - _MainAnimationCustomDataChannel01: 0
+    - _MainAnimationCustomDataChannel02: 0
+    - _MainAnimationData01: 0
+    - _MainAnimationData02: 0
+    - _MainAnimationSource: 0
+    - _MainDistortionIntensity: 0
+    - _MainTexAlphaIntensity: 1
+    - _MainTexColorRampChannel: 0
+    - _MainTexIntensity: 1
+    - _MaskAlphaChannel: 0
+    - _MaskAnimationCustomDataChannel01: 0
+    - _MaskAnimationCustomDataChannel02: 0
+    - _MaskAnimationSource: 0
+    - _MaskIntensity: 1
+    - _Metallic: 0
+    - _NormalMapIntensity: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _RampIntensity: 1
+    - _RampMapSource: 0
+    - _ReceiveShadows: 1
+    - _RenderQueueOffset: 0
+    - _ScreenDistortionChannel: 3
+    - _ScreenDistortionIntensity: 0.5
+    - _SecondAlphaBlendMode: 1
+    - _SecondAlphaIntensity: 1
+    - _SecondAnimation: 0
+    - _SecondAnimationCustomDataChannel01: 0
+    - _SecondAnimationCustomDataChannel02: 0
+    - _SecondAnimationData01: 0
+    - _SecondAnimationData02: 0
+    - _SecondAnimationSource: 0
+    - _SecondColorBlendMode: 1
+    - _SecondColorIntensity: 1
+    - _SecondDissolutionCustomDataChannel: 0
+    - _SecondDissolutionSoftness: 0.1
+    - _SecondDissolutionSource: 0
+    - _SecondDissolutionThreshold: 0.5
+    - _SecondDistortionIntensity: 0
+    - _SecondGradientChannel: 0
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _SrcBlendA: 1
+    - _SrcBlendAlpha: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Surface: 0
+    - _ThirdAlphaBlendMode: 1
+    - _ThirdAlphaIntensity: 1
+    - _ThirdAnimation: 0
+    - _ThirdAnimationData01: 0
+    - _ThirdAnimationData02: 0
+    - _ThirdColorBlendMode: 1
+    - _ThirdColorIntensity: 1
+    - _ThirdDistortionIntensity: 0
+    - _VertexAnimAnimation: 0
+    - _VertexAnimAnimationData01: 0
+    - _VertexAnimAnimationData02: 0
+    - _VertexAnimChannel: 0
+    - _VertexAnimDistortionIntensity: 0
+    - _VertexAnimIntensity: 1
+    - _VertexAnimationStrengthCustomDataChannel01: 0
+    - _VertexAnimationStrengthCustomDataChannel02: 0
+    - _VertexAnimationStrengthCustomDataChannel03: 0
+    - _VertexAnimationStrengthSource: 0
+    - _WorkflowMode: 1
+    - _XRMotionVectorsPass: 1
+    - _ZTest: 4
+    - _ZWrite: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DepthBlendColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolutionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolutionRotationParams: {r: 1, g: 0, b: 0, a: 0}
+    - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveRotationParams: {r: 1, g: 0, b: 0, a: 0}
+    - _DistortionRotationParams: {r: 1, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FlowIntensityToMultiMap: {r: 1, g: 1, b: 1, a: 1}
+    - _FlowRotationParams: {r: 1, g: 0, b: 0, a: 0}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainAnimationChannelAndSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _MainRotationParams: {r: 1, g: 0, b: 0, a: 0}
+    - _MainTexColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainTexColorAddition: {r: 0, g: 0, b: 0, a: 0}
+    - _MaskRotationParams: {r: 1, g: 0, b: 0, a: 0}
+    - _RampMapRotationParams: {r: 1, g: 0, b: 0, a: 0}
+    - _SecondColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondColor01: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondColor02: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondDissolutionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondRotationParams: {r: 1, g: 0, b: 0, a: 0}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _ThirdColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ThirdRotationParams: {r: 1, g: 0, b: 0, a: 1}
+    - _VertexAnimRotationParams: {r: 1, g: 0, b: 0, a: 0}
+    - _VertexAnimationStrength: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &6521743078546509175
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
